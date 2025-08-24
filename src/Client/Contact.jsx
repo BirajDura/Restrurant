@@ -1,9 +1,19 @@
 import React from 'react'
 
+
 const Contact = () => {
+
+const handleSubmit = ()=>{
+
+}
   return (
-    <div>
-      We can contact us on below tele.
+    <div className='p-2 mr-2'>
+      <span >You can contact us on below tele.</span>
+      <div className='border-spacing-2 p-3'>
+      <form action="handleSubmit">
+        <input type="name" />
+      </form>
+      </div>
     </div>
   )
 }
