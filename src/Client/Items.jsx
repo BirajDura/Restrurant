@@ -7,6 +7,11 @@ const Items = () => {
       <li>Chicken MOMO</li>
       <li>Buff MOMO</li>
       <li>Steam MOMO</li>
+      <li>Chilly Chaumin</li>
+      <li>Steam Chaumin</li>
+      <li>Buff Chaumin</li>
+      <li>Chicken Chaumin</li>
+
 
     </div>
   )
