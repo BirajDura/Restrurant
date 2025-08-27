@@ -4,6 +4,7 @@ const OurTeam = () => {
   return (
     <div>
       The best of us.
+      Welcome 
     </div>
   )
 }
