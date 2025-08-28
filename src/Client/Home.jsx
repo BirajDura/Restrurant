@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <div>
       Welcome to the MoMo Restro.
+      here are the features 
       <div>
         <Items/>
       </div>
