@@ -8,7 +8,7 @@ const OurTeam = () => {
       <li>Name</li>
       <li>Address</li>
       <li>Phone Number</li>
-      <li></li>
+      <li>Department</li>
 
     </div>
   )
