@@ -12,6 +12,7 @@ const handleSubmit = ()=>{
       <div className='border-spacing-2 p-3'>
       <form action="handleSubmit">
         <input type="name" />
+        <textarea name="username" > Username</textarea>
       </form>
       </div>
     </div>
