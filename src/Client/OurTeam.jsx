@@ -9,6 +9,11 @@ const OurTeam = () => {
       <li>Address</li>
       <li>Phone Number</li>
       <li>Department</li>
+      <li>Company</li>
+
+      <li>Department</li>
+      <li>Employee Id</li>
+
 
     </div>
   )
