@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import Items from './Items';
 import Contact from './Contact';
 import OurTeam from './OurTeam';
 
 const Home = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Banner Section */}
@@ -15,9 +27,9 @@ const Home = () => {
       </div>
 
       {/* Content Sections */}
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-12 pt-20">
         {/* Features Section */}
-        <section className="mb-16">
+        <section id="items" className="mb-16">
           <h2 className="text-3xl font-semibold text-center mb-8 text-gray-800">Our Features</h2>
           <div className="bg-white shadow-lg rounded-lg p-6">
             <Items />
@@ -25,7 +37,7 @@ const Home = () => {
         </section>
 
         {/* Contact Section */}
-        <section className="mb-16">
+        <section id="contact" className="mb-16">
           <h2 className="text-3xl font-semibold text-center mb-8 text-gray-800">Get in Touch</h2>
           <div className="bg-white shadow-lg rounded-lg p-6">
             <Contact />
@@ -33,7 +45,7 @@ const Home = () => {
         </section>
 
         {/* Our Team Section */}
-        <section>
+        <section id="our-team">
           <h2 className="text-3xl font-semibold text-center mb-8 text-gray-800">Meet Our Team</h2>
           <div className="bg-white shadow-lg rounded-lg p-6">
             <OurTeam />
@@ -45,4 +57,3 @@ const Home = () => {
 };
 
 export default Home;
-
