@@ -7,6 +7,9 @@ const Blog = () => {
       <div> 
         we always to your service
         every things is good .
+        <ul>
+          <li>check</li>
+        </ul>
       </div>
     </div>
   )
