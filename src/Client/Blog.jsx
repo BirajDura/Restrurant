@@ -9,6 +9,8 @@ const Blog = () => {
         every things is good .
         <ul>
           <li>check</li>
+          <li>pay</li>
+
         </ul>
       </div>
     </div>
