@@ -11,6 +11,7 @@ const Blog = () => {
           <li>check</li>
           <li>pay</li>
           <li>Cancel</li>
+          <li>Book</li>
 
 
         </ul>
