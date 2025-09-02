@@ -10,6 +10,8 @@ const Blog = () => {
         <ul>
           <li>check</li>
           <li>pay</li>
+          <li>Cancel</li>
+
 
         </ul>
       </div>
