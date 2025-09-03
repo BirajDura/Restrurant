@@ -7,14 +7,14 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-transparent py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-2xl mx-auto">
-        <h1 className="text-3xl font-bold text-gray-900 text-center mb-6">Contact Us</h1>
-        <p className="text-center text-gray-600 mb-8">
+        <h1 className="text-3xl font-bold text-white text-center mb-6">Contact Us</h1>
+        <p className="text-center text-white mb-8">
           We’d love to hear from you! Reach out to us using the form below or our contact details.If any issues please be free to message us.
         </p>
 
-        <div className="bg-white shadow-md rounded-lg p-6">
+        <div className="bg-white bg-opacity-70 shadow-md rounded-lg p-6">
           <div className="mb-6">
             <h2 className="text-xl font-semibold text-gray-700">Contact Information</h2>
             <p className="text-gray-600 mt-2">
