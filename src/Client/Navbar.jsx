@@ -1,21 +1,21 @@
-import { Link } from "react-router-dom";
-
 const Navbar = () => {
-    return (
-        <nav className=" absolute flex items-center justify-between px-6 py-4 bg-transparent  w-full z-10">
-            <div className="text-2xl font-bold text-white">
-                RESTRO
-            </div>
-            <div className="flex justify-center flex-grow">
-                <div className="flex space-x-6">
-                    <Link to="/" className="px-4 py-2 text-xl text-white hover:text-blue-700">Home</Link>
-                    <Link to="/items" className="px-4 py-2 text-xl text-white hover:text-blue-700">Items</Link>
-                    <Link to="/contact" className="px-4 py-2 text-xl text-white hover:text-blue-700">Contact</Link>
-                    <Link to="/ourteam" className="px-4 py-2 text-xl text-white hover:text-blue-700">Team</Link>
-                </div>
-            </div>
-        </nav>
-    )
-}
+  return (
+    <nav className="fixed w-full z-50 bg-black/40 backdrop-blur-md text-white">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
 
-export default Navbar
+        <h1 className="text-2xl font-bold tracking-widest">RESTRO</h1>
+
+        <div className="flex gap-8 text-lg">
+          <a href="#home" className="hover:text-yellow-400 transition">Home</a>
+          <a href="#about" className="hover:text-yellow-400 transition">About</a>
+          <a href="#menu" className="hover:text-yellow-400 transition">Menu</a>
+          <a href="#team" className="hover:text-yellow-400 transition">Team</a>
+          <a href="#contact" className="hover:text-yellow-400 transition">Contact</a>
+        </div>
+
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
