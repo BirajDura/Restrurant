@@ -64,7 +64,7 @@ const Items = () => {
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             Explore our chef's carefully crafted menu featuring international
-            flavors,  and unforgettable taste experiences.
+            flavors, premium ingredients, and unforgettable taste experiences.
           </p>
         </div>
 
