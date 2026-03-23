@@ -1,6 +1,6 @@
 import Davide from "../assets/Davide.png";
 import Sam from "../assets/Sam.png";
-import Miguel from "../assets/miguel.png";
+import Miguel from "../assets/Miguel.png";
 import Manager from "../assets/Manager.png";
 
 const OurTeam = () => {
