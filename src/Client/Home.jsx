@@ -16,7 +16,7 @@ const Home = () => {
         }}
       >
         <div className="bg-black/60 p-10 rounded-xl text-center">
-          <h1 className="text-6xl font-bold mb-4">MoMo Restro</h1>
+          <h1 className="text-6xl font-bold mb-4">Fast Food Restro</h1>
           <p className="text-xl mb-6">Experience the Taste of Perfection</p>
           <a
             href="#menu"
